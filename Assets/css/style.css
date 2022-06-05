@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(128, 128, 128, 0.966);
+}
+.logo, .nav{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo img{
+    height: 60px;
+}
+.logo h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo h2 span{
+    color: orange;
+}
+.nav a{
+    text-decoration: none;
+    color: aqua;
+    font-style: bold;
+    margin-left: 11%;
+    font-weight: 900;
+    
+}
