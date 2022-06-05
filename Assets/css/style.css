@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url("https://i.pinimg.com/736x/79/2f/ba/792fba2d311faea8fee9f7505121c92d.jpg");
+    background-size: cover;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -19,6 +23,7 @@
 .logo h2{
     font-size: 30px;
     font-weight: 600;
+    padding-left: 7%;
 }
 .logo h2 span{
     color: orange;
@@ -35,14 +40,33 @@
     justify-content: space-evenly;
     margin: 3%;
 }
-.text-section, .image-section, .skills-section{
+.text-section, .skills-section{
     min-height: 250px;
     width: 30%;
-    border: 1px solid green;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+}
+.text-section h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.text-section h2 span{
+    color: orange;
+    font-size: 26px;
+    font-weight: 500;
+}
+.text-section p{
+    line-height: 1.5;
+    margin-top: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
 }
 .image-section img{
-    height: 250px;
-    margin: 3%;
+    height: 200px;
+
 }
 .skills-section h2{
     color: orange;
@@ -53,4 +77,32 @@
     margin-left: 15%;
     margin-top: 10%;
     font-size: 18px;
+}
+.btns{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    
+
+}
+.more{
+    background: orange;
+    border: none;
+    border-radius: 6px;
+}
+.more a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.email{
+    border-radius: 10%;
+    border:1px solid orange ;
+}
+.email a{
+    padding: 5px 20px;
+    font-size: 20px;
+    text-decoration: none;
 }
