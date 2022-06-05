@@ -28,6 +28,29 @@
     color: aqua;
     font-style: bold;
     margin-left: 11%;
-    font-weight: 900;
-    
+    font-weight: 900;  
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+.text-section, .image-section, .skills-section{
+    min-height: 250px;
+    width: 30%;
+    border: 1px solid green;
+}
+.image-section img{
+    height: 250px;
+    margin: 3%;
+}
+.skills-section h2{
+    color: orange;
+    font-size: 27px;
+
+}
+.skills-section ul li{
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 18px;
 }
