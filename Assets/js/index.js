@@ -21,7 +21,9 @@ submitBtn.addEventListener("click", function(){
     }
     else{
         alert("Message sent successfully")
-        
+        fname.value = "";
+        email.value = "";
+        phone.value = "";
 
     }
 })
