@@ -146,3 +146,13 @@ input[type=text], textarea {
     margin-left: 20%;
     margin-right: 20%;
   }
+  footer{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 5%;
+      background-color: #aaaaaa;
+      padding: 30px ;
+    
+      
+  }
+  
