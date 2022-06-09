@@ -9,7 +9,7 @@ This is a website containing all personal information.
 </ul>
 
 ## Installations
-Click on this [Link]("https://koima-sam.github.io/My-Portofolio/") to acces the website
+Click on this ![Link]("https://koima-sam.github.io/My-Portofolio/") to acces the website
 
 ## LICENSE
-[MIT]('https://choosealicense.com/licenses/mit/')
+![MIT]('https://choosealicense.com/licenses/mit/')
